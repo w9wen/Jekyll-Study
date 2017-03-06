@@ -1,0 +1,52 @@
+---
+layout: default
+---
+
+<!-- POST HTML -->
+<article id="post">
+    <div class="container">
+
+        <div class="row">
+
+            <!-- Blog Post Content Column -->
+            <div class="col-lg-8">
+
+                <!-- Blog Post -->
+
+                <!-- Title -->
+                <h1>{{ page.title }}</h1>
+
+                <!-- Author -->
+                <p class="lead">
+                    by {{ page.author }}
+                </p>
+
+                <hr>
+
+                <!-- Date/Time -->
+                <p><span class="glyphicon glyphicon-time"></span> Posted on {{ page.date | date: "%B %d, %Y"}}</p>
+
+                <hr>
+
+                   <!-- Preview Image -->
+                   {% if page.image %}
+                   <img class="img-responsive" src="{{ page.image }}" alt="{{ page.image }}">
+                   {% endif %}
+
+
+                <hr>
+
+                <!-- Post Content -->
+                {% if page.lead %}
+                <p class="lead">{{ page.lead }}</p>
+                {% endif %}
+
+                <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman’s earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>
+
+                <p>Science cuts two ways, of course; its products can be used for both good and evil. But there’s no turning back from science. The early warnings about technological dangers also come from science.</p>
+
+                <p>What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.</p>
+
+                <p>A Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That’s how I felt seeing the Earth for the first time. I could not help but love and cherish her.</p>
+
+                <blockquote><p>For those who have seen the Earth from space, and for the hundreds and perhaps thousands more &gt; who will, the experience most certainly changes your perspective. The things that we share in &gt; our world are far more valuable than those which divide us.</p>
