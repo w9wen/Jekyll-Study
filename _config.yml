@@ -28,3 +28,5 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+permalink: none
