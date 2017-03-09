@@ -3,7 +3,6 @@ title: "Why use Jekyll"
 date: 2017-03-08 12:00
 subtitle: Websites are becoming leaner, faster and more agile, as users demand quick, seamless experiences.
 lead: 70% of today’s WordPress installations are vulnerable to known exploits (and WordPress powers more than 25% of the web). WordPress is used by 58.8% of all the websites whose content management system we know.
-published: true
 ---
 
 
