@@ -30,3 +30,13 @@ exclude:
   - Gemfile.lock
 
 permalink: none
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "post"
+      author: w9wen
+      category: jekyll
