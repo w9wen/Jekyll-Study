@@ -31,6 +31,8 @@ exclude:
 
 permalink: none
 
+comments: true
+
 defaults:
   -
     scope:
