@@ -17,7 +17,7 @@ title: Great web agency
 email: william.wen@gmail.com
 description: "Great web agency offers high impact yet affordable web development services. From web design to targeted SEO to custom web applications."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://w9wen.github.io/Jekyll-Study/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://w9wen.github.io/Jekyll-Study/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username: w9wen # jekyll
 
